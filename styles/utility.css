@@ -1,0 +1,7 @@
+.px-md {
+  padding-inline: var(--px-md);
+}
+
+.py-md {
+  padding-block: var(--py-md);
+}

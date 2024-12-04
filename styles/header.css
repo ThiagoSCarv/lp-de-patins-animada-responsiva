@@ -1,0 +1,36 @@
+.top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    transition: transform 500ms;
+  }
+
+  & img[src*="Logo"]:hover {
+    transform: rotate(90deg);
+  }
+
+  & img[src*="shopping"]:hover {
+    transform: rotate(-45deg);
+  }
+
+  & a {
+    position: relative;
+    & span {
+      position: absolute;
+      background-color: var(--snitap-sun);
+      padding-inline: 7px;
+      padding-block: 1px;
+      border-radius: 80%;
+      left: 18px;
+      bottom: 28px;
+      font-family: "Inter", serif;
+      font-size: .75rem;
+    }
+  }
+}
