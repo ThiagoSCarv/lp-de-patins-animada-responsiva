@@ -5,3 +5,7 @@
 .py-md {
   padding-block: var(--py-md);
 }
+
+.py-lg {
+  padding-block: var(--py-lg);
+}
